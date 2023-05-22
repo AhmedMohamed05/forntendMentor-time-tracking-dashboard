@@ -38,7 +38,7 @@ function showData(arr) {
 }
 
 function getData() {
-  fetch("../data.json")
+  fetch("./js/data.json")
     .then((response) => response.json())
     .then((data) => showData(data));
 }
